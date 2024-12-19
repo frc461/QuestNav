@@ -40,7 +40,7 @@ public class MotionStreamer : MonoBehaviour
 
     /* NT configuration settings */
     private readonly string appName = "Quest3S"; // A fun name to ID the client in the robot logs
-    private readonly string serverAddress = "10.99.99.2"; // RoboRIO IP Address (typically 10.TE.AM.2)
+    private readonly string serverAddress = "10.4.61.2"; // RoboRIO IP Address (typically 10.TE.AM.2)
     private readonly int serverPort = 5810; // Typically 5810
     private int delayCounter = 0; // Counter used to delay checking for commands from the robot
 
